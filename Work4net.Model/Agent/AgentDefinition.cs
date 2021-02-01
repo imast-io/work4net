@@ -6,7 +6,7 @@ namespace Work4net.Model.Agent
     /// The agent definition
     /// </summary>
     [Serializable]
-    public class AgentDefinition
+    public class AgentDefinition 
     {
         /// <summary>
         /// The agent identifier
@@ -42,5 +42,14 @@ namespace Work4net.Model.Agent
         /// The registration timestamp
         /// </summary>
         public DateTime Registered { get; set; }
+
+        /// <summary>
+        /// Shallow clone the instance
+        /// </summary>
+        /// <returns></returns>
+        public AgentDefinition ShallowClone()
+        {
+            return (AgentDefinition) this.MemberwiseClone();
+        }
     }
 }

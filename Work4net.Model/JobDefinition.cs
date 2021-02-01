@@ -83,5 +83,14 @@ namespace Work4net.Model
         /// The extra data of job definition
         /// </summary>
         public IDictionary<string, object> Extra { get; set; }
+
+        /// <summary>
+        /// Shallow clone the instance
+        /// </summary>
+        /// <returns></returns>
+        public JobDefinition ShallowClone()
+        {
+            return (JobDefinition)this.MemberwiseClone();
+        }
     }
 }
