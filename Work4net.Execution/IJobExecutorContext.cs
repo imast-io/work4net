@@ -23,7 +23,7 @@ namespace Work4net.Execution
         /// Gets the job type
         /// </summary>
         /// <returns></returns>
-        string GetType();
+        string GetJobType();
 
         /// <summary>
         /// Gets registered module with given key and type
@@ -32,7 +32,7 @@ namespace Work4net.Execution
         /// <param name="key">The key of module</param>
         /// <param name="defaultValue">The default value if does not exist</param>
         /// <returns></returns>
-        T GetModuleOr<T>(string key, T defaultValue);
+        T GetModuleOr<T>(string key, T defaultValue) where T : class;
 
         /// <summary>
         /// Gets job value with given key and type

@@ -30,6 +30,11 @@ namespace Work4net.Model
         public string Type { get; set; }
 
         /// <summary>
+        /// The job definition tenant
+        /// </summary>
+        public string Tenant { get; set; }
+
+        /// <summary>
         /// The collection of defined triggers
         /// </summary>
         public List<TriggerDefinition> Triggers { get; set; }

@@ -27,17 +27,17 @@ namespace Work4net.Model
         /// <summary>
         /// The static period to use in milliseconds
         /// </summary>
-        public double Period { get; set; }
+        public double? Period { get; set; }
 
         /// <summary>
         /// The start time for trigger
         /// </summary>
-        public DateTime StartAt { get; set; }
+        public DateTime? StartAt { get; set; }
 
         /// <summary>
         /// The end time for trigger
         /// </summary>
-        public DateTime EndAt { get; set; }
+        public DateTime? EndAt { get; set; }
 
         /// <summary>
         /// The payload of trigger

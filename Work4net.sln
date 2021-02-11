@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work4net.Model", "Work4net.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work4net.Data", "Work4net.Data\Work4net.Data.csproj", "{247E440A-EB50-4023-B4C5-A255F924F0D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work4net.Execution", "Work4net.Execution\Work4net.Execution.csproj", "{83A7C66E-1093-4C53-BF77-9F80EF6C21BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work4net.Execution", "Work4net.Execution\Work4net.Execution.csproj", "{83A7C66E-1093-4C53-BF77-9F80EF6C21BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work4net.Channel", "Work4net.Channel\Work4net.Channel.csproj", "{395F20BB-E807-4E7A-A9B9-9A0FBDE0A53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work4net.Channel", "Work4net.Channel\Work4net.Channel.csproj", "{395F20BB-E807-4E7A-A9B9-9A0FBDE0A53C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work4net.Controller", "Work4net.Controller\Work4net.Controller.csproj", "{5D203C71-D9BE-46C1-8BC5-5A3270700AE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work4net.Controller", "Work4net.Controller\Work4net.Controller.csproj", "{5D203C71-D9BE-46C1-8BC5-5A3270700AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work4net.Worker", "Work4net.Worker\Work4net.Worker.csproj", "{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,18 @@ Global
 		{5D203C71-D9BE-46C1-8BC5-5A3270700AE2}.Release|x64.Build.0 = Release|Any CPU
 		{5D203C71-D9BE-46C1-8BC5-5A3270700AE2}.Release|x86.ActiveCfg = Release|Any CPU
 		{5D203C71-D9BE-46C1-8BC5-5A3270700AE2}.Release|x86.Build.0 = Release|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Debug|x64.Build.0 = Debug|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Debug|x86.Build.0 = Debug|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Release|x64.ActiveCfg = Release|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Release|x64.Build.0 = Release|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Release|x86.ActiveCfg = Release|Any CPU
+		{00B76C08-9938-4AF3-9A1D-4ADD3ACF3252}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
