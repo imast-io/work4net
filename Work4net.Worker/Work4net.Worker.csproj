@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Work4net.Channel\Work4net.Channel.csproj" />
+    <ProjectReference Include="..\Work4net.Common\Work4net.Common.csproj" />
     <ProjectReference Include="..\Work4net.Execution\Work4net.Execution.csproj" />
     <ProjectReference Include="..\Work4net.Model\Work4net.Model.csproj" />
   </ItemGroup>

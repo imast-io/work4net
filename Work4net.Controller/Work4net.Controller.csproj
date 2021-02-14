@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Work4net.Channel\Work4net.Channel.csproj" />
     <ProjectReference Include="..\Work4net.Data\Work4net.Data.csproj" />
     <ProjectReference Include="..\Work4net.Model\Work4net.Model.csproj" />
