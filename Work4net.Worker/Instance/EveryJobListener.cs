@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using log4net;
 using Quartz;
+using Quartz.Impl;
 using Work4net.Channel;
 using Work4net.Common.Log;
 using Work4net.Model;
